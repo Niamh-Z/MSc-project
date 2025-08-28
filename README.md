@@ -137,7 +137,7 @@ Arguments:
 - `--epochs` (default: 3): fine-tuning epochs.
 - `--batch` (default: 32): batch size.
 - `--ood_topic` must match the filename prefix: <prefix>_1to5.csv → <prefix>.
-- '--kfolds` reflects the number of cross-validation.
+- `--kfolds` reflects the number of cross-validation.
 
 Outputs:
 
