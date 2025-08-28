@@ -68,8 +68,8 @@ MLP_DROP             = 0.0
 # ------------------------------------------------------------------ #
 U_TEXT_COLS   = ["U.S.displayName", "U.S.description",
                  "U.R.displayName", "U.R.description"]
-HMS_TEXT_COLS = ["HM.S.record.text"]
-HMR_TEXT_COLS = ["HM.R.record.text"]
+HMS_TEXT_COLS = ["UHM.S.record.text"]
+HMR_TEXT_COLS = ["UHM.R.record.text"]
 EXCL_COLS     = ["M.uri", "U.S.did", "U.R.did", "M.record.createdAt"]
 NUM_RE        = re.compile(r"^(U\.|HU\.)")  # numeric U.* / HU.* columns
 
