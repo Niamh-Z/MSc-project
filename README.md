@@ -49,6 +49,17 @@ pip install --index-url https://download.pytorch.org/whl/cu128 torch torchvision
 pip install transformers pandas numpy scikit-learn evaluate ftfy unidecode tqdm matplotlib
 ```
 
+## Model Weights: `bert-base-uncased` (first run)
+We use Hugging Face Transformers. On the first run, the tokenizer and model
+(`bert-base-uncased`) will be downloaded automatically.
+
+**Where are files stored by default?**
+- Linux/macOS: `~/.cache/huggingface/hub`
+- Windows (PowerShell): `%USERPROFILE%\.cache\huggingface\hub`
+
+Nothing to do if your machine has internet. 
+
+
 ## In-Distribution
 
 ### 1) MTX
