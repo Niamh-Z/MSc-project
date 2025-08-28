@@ -165,7 +165,7 @@ Arguments:
 
 - `--csvs` (required): CSV paths (space-separated).
 - `--ood_topic` must match the filename prefix: <prefix>_1to5.csv → <prefix>.
-- '--kfolds` reflects the number of cross-validation.
+- `--kfolds` reflects the number of cross-validation.
 
 Outputs:
 
